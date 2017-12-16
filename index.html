@@ -4,15 +4,158 @@
     <title>LabCar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header></header>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <footer></footer>
-
+    <!--header-->
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Menú hamburguesa para visualización móvil -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/logoForma.png" alt="">
+            </a>
+          </div>
+          <!-- elementos de navegación -->
+          <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Viaja<span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Conduce<span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Inicie Sesión<span class="sr-only">(current)</span></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    <!--fin de header-->
+    <!--inicio de la primera sección-->
+    <section class="section-one">
+      <div class="container">
+        <div class="row">
+          <div class="registry col-md-4">
+              <h3>Disfruta del viaje<br>Eres dueño de tu tiempo</h3>
+              <h4>Viaja con
+                <img class="white-logo"src="assets/images/logoBlanco.png" alt="logo en parte de registro">
+              </h4>
+              <button type="button" class="btn btn-default btn-sm text-uppercase">Regístrate</button><hr>
+              <button type="button" class="btn btn-default btn-sm ">Conviértete en un conductor</button>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--fin de la primera sección-->
+    <section class="section-two">
+      <div class="container-fluid">
+        <div class="row">
+         <br>
+          <div class="i-mobile">
+            <img class="img-mobile col-md-4" src="assets/images/iphone6Plus.png" alt="imagen de móvil">
+            <div class="i-app col-md-4">
+             <h3><b>Descarga la nueva app</b></h3><br>
+             <p>La versión actualizada de LabCar<br>está llena de nuevas funciones para<br> llegar a donde quieras aún más
+             fácil<br> y rápido.<br></p>
+             <p>Con solo tocar un botón,un auto<br>llega justo a tu ubicación.Súbete y<br> no te preocupes:tu conductor sabe<br>
+             exactamente a dónde ir.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--fin de la segunda sección-->
+    <!--inicio de la tercera sección-->
+    <section class="section-three">
+      <div class="container">
+        <div class="row">
+          <div class="he-drives col-md-4">
+            <h3><b>Conduce cuando quieras</b></h3><br><p>LabCar es una opción flexible para alcanzar<br>tus metas financieras</p>
+            <button type="button" class="btn btn-warning">Conviértete en conductor</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--fin de la tercera sección-->
+    <!--inicio de la cuarta sección-->
+    <section class="section-four">
+      <div class="container">
+        <div class="row">
+          <div class="rates-map col-md-12">
+            <div class="rates col-md-5">
+              <h3><b>Tarifas</b></h3>
+              <p>Consulta las tarifas LabCar aquí</p>
+              <img src="assets/images/shape.png" alt="img punto de partida">
+              <button type="button" class="btn btn-warning"> Ingrese su punto de partida</button><br>
+              <img src="assets/images/shape2.png" alt="img destino">
+              <button type="button" class="btn btn-warning">Ingrese su destino</button><br>
+              <button type="button" class="btn btn-default ">Trazar ruta</button>
+            </div>
+            <div class="map col-md-5">
+              <img class="t-map"src="assets/images/map.png" alt="mapa">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--fin de la cuarta sección-->
+    <!-- footer-->
+    <footer class="container-fluid">
+      <div class="row tmñ-ft">
+        <div class="col-md-12">
+          <img class="labFooter" src="assets/images/logoBlanco.png" alt="logo en footer"><hr>
+          <div class="pie-pgn">
+            <div class="list-1 col-md-4">
+              <ul style="list-style:none">
+                <li>Viaja</li>
+                <li>Conduce</li>
+                <li>ciudades</li>
+                <li>ciudades</li>
+                <li>Entregas</li>
+                <li>Cómo funciona?</li>
+                <li>Países</li>
+                <li>Seguridad</li>
+              </ul>
+            </div>
+            <div class="list-2""col-md-4">
+              <ul style="list-style:none">
+                <li>Oportunidades</li>
+                <li>Nuestra historia</li>
+                <li>Api de LabCar</li>
+                <li>Eventos</li>
+                <li>Desarrolladores</li>
+                <li>Servicios</li>
+                <li>Laboratoria</li>
+                <li>Coders</li>
+              </ul>
+            </div>
+            <div class="list-3 col-md-4">
+              <img class="tmñ" src="assets/images/appstore.png" alt="app store"><br>
+              <img  class="tmñ"src="assets/images/enBadgeWebGeneric.png" alt="google play">
+            </div>
+          </div>
+        </div>
+        <div class="list-4">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <i class="fa fa-apple" aria-hidden="true"></i>
+          <i class="fa fa-play" aria-hidden="true"></i>
+        </div>
+          <hr>
+          <div class="copyright">
+            <i class="fa fa-copyright" aria-hidden="true"></i>
+            <p>2017 LabCar technologies Inc.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--fin de footer-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
