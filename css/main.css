@@ -1,6 +1,8 @@
+/*barra de navegación*/
 .navbar-default{
   margin-bottom:0;
 }
+/*primera sección*/
 .section-one{
   background-image: url('../assets/images/taxi.jpg');
   background-position: bottom;
@@ -8,6 +10,7 @@
   background-size: 100%;
   height:100%;
 }
+/*parte del registro*/
 .registry{
   background-color: #f7b617;
   width: 350px;
@@ -17,10 +20,6 @@
   margin-top: 19%;
   padding-top: 0.5%;
 }
-
-/*.separator{
-  padding-right: 32%;
-}*/
 
 .section-one{
   max-width: 100%;
@@ -33,6 +32,8 @@
    max-height:100%;
   }
 }
+
+/*fin de primera sección*/
 
 h3, h4, p, li, i{
   color:white;
@@ -47,7 +48,7 @@ p{
   width: 70px;;
   height: 15px;
 }
-
+/*segunda sección*/
 .section-two{
  background-color: #f7b617;
  width: 100%;
@@ -60,12 +61,6 @@ p{
   margin-top: 3%;
   margin-left: 3%;
 }
-.i-mobile{
-  border: 1px solid white;
-  width: 900px;
-  height: 375px;
-  display: flex;
-}
 
 .i-app{
 
@@ -74,9 +69,16 @@ p{
   margin-top: 2.5%;
   margin-left: 15%;
   padding-right:20px;
-
 }
 
+.i-mobile{
+  border: 1px solid white;
+  width: 900px;
+  height: 375px;
+  display: flex;
+}
+/*fin de segunda sección*/
+/*tercera sección*/
 .section-three{
   background-image:url('../assets/images/conduce.jpg');
   background-position: center;
@@ -85,13 +87,13 @@ p{
   height:60%;
 }
 
-
 @media screen (min-width 992px){
    .section-three {
      max-width: 100%;
      max-height:100%;
  }
 }
+
 .he-drives{
   background-color: black;
   opacity: 0.5;
@@ -100,6 +102,7 @@ p{
   margin-left: 74%;
   padding-top: 7%;
 }
+/*fin de tercera sección*/
 
 .btn-warning{
   margin-top: 6%;
@@ -109,6 +112,12 @@ p{
 .btn-default{
   margin-top: 7%;
 }
+/*cuarta sección*/
+.section-four{
+  width:100%;
+  height: 58%;
+  background-color: #f7b617;
+}
 
 .map{
   outline: 1px solid white;
@@ -116,7 +125,6 @@ p{
   height:335px;
   margin-left: 22%;
   margin-top:-4%;
-
 }
 
 .t-map{
@@ -135,14 +143,9 @@ p{
 .rates{
 margin-left: 8%;
 }
+/*fin de cuarta sección*/
 
-.section-four{
-  width:100%;
-  height: 58%;
-  background-color: #f7b617;
-
-}
-
+/*inicio de footer*/
 footer{
   background-color: #2b2b2b;
   width:100%;
@@ -191,6 +194,7 @@ li{
 .copyright{
   display: flex;
 }
+/*fin de footer*/
 
 @media (min-width: 992px) {
   .col-md-1 {
@@ -239,57 +243,5 @@ li{
 
   .col-md-12 {
     width: 100%;
-  }
-
-  .col-md-offset-0 {
-    margin-left: 0%;
-  }
-
-  .col-md-offset-1 {
-    margin-left: 8.33333333%;
-  }
-
-  .col-md-offset-2 {
-    margin-left: 16.66666667%;
-  }
-
-  .col-md-offset-3 {
-    margin-left: 25%;
-  }
-
-  .col-md-offset-4 {
-    margin-left: 33.33333333%;
-  }
-
-  .col-md-offset-5 {
-    margin-left: 41.66666667%;
-  }
-
-  .col-md-offset-6 {
-    margin-left: 50%;
-  }
-
-  .col-md-offset-7 {
-    margin-left: 58.33333333%;
-  }
-
-  .col-md-offset-8 {
-    margin-left: 66.66666667%;
-  }
-
-  .col-md-offset-9 {
-    margin-left: 75%;
-  }
-
-  .col-md-offset-10 {
-    margin-left: 83.33333333%;
-  }
-
-  .col-md-offset-11 {
-    margin-left: 91.66666667%;
-  }
-
-  .col-md-offset-12 {
-    margin-left: 100%;
   }
 }
