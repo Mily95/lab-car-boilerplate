@@ -3,8 +3,8 @@
 /*barra de navegación*/
 .navbar-default{
   margin-bottom:0;
-
 }
+
 /*primera sección*/
 .section-one{
   background-image: url('../assets/images/taxi.jpg');
@@ -13,32 +13,20 @@
   background-size: 100%;
   height:100%;
 }
+
 /*parte del registro*/
-.registry{
+.registry-1{
   background-color: #f7b617;
-  width: 350px;
-  height: 290px;
-  margin-left: 74%;
+  height: 45%;
+  margin-left: 72%;
   padding-left: 2%;
-  margin-top: 19%;
+  margin-top: 14.5%;
   padding-top: 0.5%;
-}
-
-.section-one{
-  max-width: 100%;
-  max-height: 100%;
-}
-
- @media screen (min-width 992px){
-   .section-one{
-   max-width: 100%;
-   max-height:100%;
-  }
 }
 
 /*fin de primera sección*/
 
-h3, h4, p, li, i{
+h1,h3, h4, p, li, i{
   color:white;
   opacity: 0.9;
 }
@@ -51,36 +39,37 @@ p{
   width: 70px;;
   height: 15px;
 }
+
 /*segunda sección*/
 .section-two{
  background-color: #f7b617;
  width: 100%;
- height: 65%;
+ height: 70%;
 }
 
 .img-mobile{
-  width: 300px;
-  height: 300px;
-  margin-top: 3%;
+  height: 80%;
+  margin-top: 5.5%;
   margin-left: 3%;
 }
 
 .i-app{
-
-  width: 300px;
-  height: 270px;
-  margin-top: 2.5%;
-  margin-left: 15%;
-  padding-right:20px;
+  height: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
 }
 
 .i-mobile{
-  border: 1px solid white;
-  width: 900px;
-  height: 375px;
+  border: 2px solid white;
+  width: 90%;
+  height: 90%;
+  margin-left:-7.7%;
+  margin-top:0.1%;
   display: flex;
+
 }
 /*fin de segunda sección*/
+
 /*tercera sección*/
 .section-three{
   background-image:url('../assets/images/conduce.jpg');
@@ -88,21 +77,14 @@ p{
   background-repeat: no-repeat;
   background-size: 100%;
   height:60%;
-}
 
-@media screen (min-width 992px){
-   .section-three {
-     max-width: 100%;
-     max-height:100%;
- }
 }
 
 .he-drives{
+  height: 100%;
   background-color: black;
   opacity: 0.5;
-  width:100%;
-  height: 100%;
-  margin-left: 74%;
+  margin-left: 72%;
   padding-top: 7%;
 }
 /*fin de tercera sección*/
@@ -113,7 +95,7 @@ p{
 }
 
 .btn-default{
-  margin-top: 7%;
+  margin-top: 3%;
 }
 /*cuarta sección*/
 .section-four{
@@ -124,17 +106,20 @@ p{
 
 .map{
   outline: 1px solid white;
-  width:360px;
-  height:335px;
+  height:88%;
   margin-left: 22%;
   margin-top:-4%;
 }
 
 .t-map{
-  width: 360px;
-  height:320px;
+  width: 100%;
+  height:96%;
   padding-top: 3.5%;
   padding-left: 0;
+}
+
+.rates{
+margin-left: 8%;
 }
 
 .rates-map{
@@ -143,31 +128,28 @@ p{
   padding-right:12%;
 }
 
-.rates{
-margin-left: 8%;
-}
 /*fin de cuarta sección*/
 
 /*inicio de footer*/
 footer{
   background-color: #2b2b2b;
-  width:100%;
-  height: 65%;
+  height: 70%;
 }
 
 .labFooter{
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .pie-pgn{
-  width: 900px;
-  height:250px;
+  width: 80%;
+  height:45%;
   display: flex;
-  margin-left: 4%;
+  margin-left: 5%;
 }
 
 .tmñ-ft{
   margin:0 55px 0 55px;
+  margin-top: 4%;
 }
 
 .list-1, .list-2, .list-3{
@@ -180,14 +162,12 @@ li{
 
 .list-3{
   margin-top:8%;
-
 }
 
 .tmñ{
-  width: 60%;
-  height: 25%;
-  margin-top:15%;
-
+  height: 28%;
+  margin-top:12%;
+  margin-left: -12%;
 }
 
 .list-4{
@@ -308,8 +288,105 @@ li{
 .col-xs-12 {
   width: 100%;
 }
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
 }
 
 .navbar-header{
   padding-right:80%;
+}
+
+.registry-2{
+  background-color: #f7b617;
+  height: 50%;
+  padding: 2% 0 0 6%;
+  margin:25% 0 0 32%;
+}
+
+.btn-lg{
+  margin-top: 6%;
+}
+
+.section-four-2{
+  width:100%;
+  height:85%;
+  background-color: #f7b617;
+}
+
+.t-map-2{
+   width: 100%;
+  height: 85%;
+  margin-top: 5%;
+  padding-top:2%;
+}
+
+.rates-map-2{
+  height: 30%;
+  padding-top: 2%;
+  padding-right:12%;
+}
+
+.map-2{
+  outline: 2px solid white;
+  width: 80%;
+  height: 100%;
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.btn-xs{
+  margin-left: 0;
+}
+
+.rates-2{
+  padding-left: 0.5%;
 }
